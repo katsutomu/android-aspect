@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.katsu.aspect">
-    <uses-permission android:name="android.permission.READ_CONTACTS"/>
+
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+
     <application
         android:name=".AspectApplication"
         android:allowBackup="true"
@@ -19,6 +21,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".AddProfileActivity" />
+        <activity android:name=".BridgeActivity" android:theme="@style/Theme.Transparent"></activity>
     </application>
 
 </manifest>
